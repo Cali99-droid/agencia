@@ -1,6 +1,33 @@
 extends ./layout/index
 
 block contenido 
-    p nosotros 
-    p ellos
-    p dev
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", class="img-fluid")
+            .col-md-7
+                h1=pagina
+
+                blockquote  ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus risus purus. Nulla at dui viverra, condimentum eros ut, malesuada velit. Integer ligula arcu, pulvinar dignissim pharetra sed, rutrum mattis sem. In sed sapien sit amet ligula tincidunt consectetur. Duis luctus tortor pellentesque sollicitudin blandit. Donec non consectetur metus. 
+
+                p metus dolor, imperdiet nec nunc at, sagittis eleifend ante. Suspendisse congue odio sit amet risus porta tincidunt. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus vulputate felis quis consectetur porttitor. 
+
+                p a ligula quis ex placerat blandit. Pellentesque in imperdiet ligula. Sed facilisis mauris ligula, vitae mattis tortor consequat in. In eu luctus ligula. Proin vulputate elementum felis, eget iaculis tortor fermentum vitae. Pellentesque ac iaculis neque, vitae finibus elit. Nulla consequat erat nec condimentum dictum. Maecenas dictum imperdiet felis at pulvinar. Suspendisse molestie nunc at feugiat pulvinar.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="", class="img-fluid mb-4")
+                    h2.mb-4 Seguidad 
+                    p roin vulputate elementum felis, eget iaculis tortor fermentum vitae. Pellentesque ac iaculis neque, vitae finibus elit. Nulla consequat erat nec condimentum dictum. Maecenas dictum imperdiet felis at pulvinar. Suspendisse molestie nunc at feugiat pulvinar.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="", class="img-fluid mb-4")
+                    h2.mb-4 Destino 
+                    p roin vulputate elementum felis, eget iaculis tortor fermentum vitae. Pellentesque ac iaculis neque, vitae finibus elit. Nulla consequat erat nec condimentum dictum. Maecenas dictum imperdiet felis at pulvinar. Suspendisse molestie nunc at feugiat pulvinar.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="", class="img-fluid mb-4")
+                    h2.mb-4 Precio
+                    p roin vulputate elementum felis, eget iaculis tortor fermentum vitae. Pellentesque ac iaculis neque, vitae finibus elit. Nulla consequat erat nec condimentum dictum. Maecenas dictum imperdiet felis at pulvinar. Suspendisse molestie nunc at feugiat pulvinar.
+
+        
